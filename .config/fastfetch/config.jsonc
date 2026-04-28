@@ -1,0 +1,81 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+    "logo": {
+      "source": "/home/agustin/.config/fastfetch/miku.jpg",
+      "type" : "auto",
+      "width" : 40,
+      
+    },
+    "display" : {
+      "separator" : " ➜ "
+    },
+
+  "modules": [
+     { "key": "╭┈➤ os",
+      "type":"os"
+    },
+    { "key" : "│   Host",
+      "type": "host"
+    },
+    {  "key": "│   Kernel", 
+      "type": "kernel"
+    },
+    { "key" : "│   Uptime",
+      "type": "uptime"
+    },
+    { "key" : "│   Packages",
+      "type": "packages"
+    },
+    { "key" : "│   Shell",
+      "type": "shell"
+    },
+    { "key" : "│   Display",
+      "type": "display"
+    },
+    //"de",
+    { "key" : "│   WM",
+      "type": "wm"
+    },
+    //"wmtheme",
+    //"theme",
+    //"icons",
+    //"font",
+    { "key" : "│   Cursor",
+      "type": "cursor"
+    },
+    { "key" : "│   Terminal",
+      "type": "terminal"
+    },
+    { "key" : "│   Terminal Font",
+      "type": "terminalfont"
+    },
+    { "key" : "│   Cpu",
+      "type" : "cpu",
+      "temp" : true  
+    },
+    { "key" : "│   Gpu",
+      "type" : "gpu",
+      "temp" : true
+    },
+    { "key" : "│   Memory",
+      "type": "memory"
+    },
+    { "key" : "│   Swap",
+      "type" : "swap"
+    },
+    { "key" : "│   Disk",
+      "type": "disk"
+    },
+    //"localip",
+    //"battery",
+    //"poweradapter",
+    { "key" : "│   Locale",
+      "type": "locale"
+    },
+    //"break",
+  { "key" : "╰┈➤ colors", 
+    "type" : "colors",
+    "symbol" : "square",
+  }  
+  ]
+}

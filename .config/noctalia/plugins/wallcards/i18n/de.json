@@ -1,0 +1,22 @@
+{
+  "buttons": {
+    "live-preview": "Live"
+  },
+  "widget": {
+    "tooltip": "Öffne Wallcards"
+  },
+  "settings": {
+    "show_image_type": {
+      "label": "Bildtyp anzeigen",
+      "desc": "Zeigt ein Symbol für den Medientyp auf den Karten."
+    },
+    "show_image_name": {
+      "label": "Bildnamen anzeigen",
+      "desc": "Zeigt den Dateinamen auf der mittleren Karte an."
+    },
+    "show_top_bar": {
+      "label": "Obere Leiste anzeigen",
+      "desc": "Zeigt die Navigations- und Filterleiste oben an."
+    }
+  }
+}

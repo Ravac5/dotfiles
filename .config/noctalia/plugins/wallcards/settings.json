@@ -1,0 +1,29 @@
+{
+  "animation_duration": 750,
+  "background_color": null,
+  "background_opacity": null,
+  "cards_shown": 11,
+  "card_height": 500,
+  "card_spacing": 8,
+  "card_strip_width": 80,
+  "card_radius": 10,
+  "filter_images": [
+    "png",
+    "jpg",
+    "jpeg"
+  ],
+  "filter_videos": [
+    "mp4",
+    "mkv",
+    "avi",
+    "mov"
+  ],
+  "live_preview": false,
+  "selected_filter": "images",
+  "shear_factor": -0.25,
+  "top_bar_height": 35,
+  "top_bar_radius": 10,
+  "show_image_type": true,
+  "show_image_name": true,
+  "show_top_bar": true
+}

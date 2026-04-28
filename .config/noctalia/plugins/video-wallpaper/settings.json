@@ -1,0 +1,26 @@
+{
+  "activeBackend": "qt6-multimedia",
+  "automationMode": "random",
+  "automationTime": 300,
+  "fillMode": "fit",
+  "mpvSocket": "/tmp/mpv-socket",
+  "profile": "default",
+  "volume": 1,
+  "wallpapersFolder": "/home/agustin/Descargas/wallpapers",
+  "thumbCacheReady": true,
+  "HDMI-A-1": {
+    "volume": 0,
+    "currentWallpaper": "",
+    "automation": false,
+    "automationMode": "random",
+    "automationTime": 300,
+    "hardwareAcceleration": false,
+    "profile": "default",
+    "fillMode": "fit",
+    "orientation": 0,
+    "isPlaying": true
+  },
+  "enabled": false,
+  "monitorSpecific": false,
+  "automationCustomTime": []
+}

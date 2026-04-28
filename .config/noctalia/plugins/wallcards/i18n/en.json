@@ -1,0 +1,22 @@
+{
+  "buttons": {
+    "live-preview": "Live"
+  },
+  "widget": {
+    "tooltip": "Open Wallcards"
+  },
+  "settings": {
+    "show_image_type": {
+      "label": "Show image type",
+      "desc": "Show an icon indicating the type of media on cards."
+    },
+    "show_image_name": {
+      "label": "Show image name",
+      "desc": "Show the name of the file on the center card."
+    },
+    "show_top_bar": {
+      "label": "Show top bar",
+      "desc": "Show the navigation and filter bar at the top."
+    }
+  }
+}

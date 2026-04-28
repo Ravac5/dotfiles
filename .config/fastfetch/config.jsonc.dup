@@ -1,0 +1,91 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+    "logo": {
+      "source": "/home/agustin/.config/fastfetch/03993d5bc90a8482195c17f27bd4a3ca.jpg",
+      "type" : "auto",
+      "width" : 50,
+      
+    },
+    "display" : {
+      "separator" : " ➜ "
+    },
+
+  "modules": [
+    { "format": "{host-name-colored}\n",
+      "type" :"title"
+    },
+    { "format" : "╰────────────────────────────────────────────────────╯",
+      "type" :"custom"
+    },
+    { "key": "╭┈➤ os",
+      "type":"os"
+    },
+    { "key" : "│   Host",
+      "type": "host"
+    },
+    {  "key": "│   Kernel", 
+      "type": "kernel"
+    },
+    { "key" : "│   Uptime",
+      "type": "uptime"
+    },
+    { "key" : "│   Packages",
+      "type": "packages"
+    },
+    { "key" : "│   Shell",
+      "type": "shell"
+    },
+    { "key" : "│   Display",
+      "type": "display"
+    },
+    //"de",
+    { "key" : "│   WM",
+      "type": "wm"
+    },
+    //"wmtheme",
+    //"theme",
+    //"icons",
+    //"font",
+    { "key" : "│   Cursor",
+      "type": "cursor"
+    },
+    { "key" : "│   Terminal",
+      "type": "terminal"
+    },
+    { "key" : "│   Terminal Font",
+      "type": "terminalfont"
+    },
+    { "key" : "│   Cpu",
+      "type" : "cpu",
+      "temp" : true  
+    },
+    { "key" : "│   Gpu",
+      "type" : "gpu",
+      "temp" : true
+    },
+    { "key" : "│   Memory",
+      "type": "memory"
+    },
+    { "key" : "│   Swap",
+      "type" : "swap"
+    },
+    { "key" : "│   Disk",
+      "type": "disk"
+    },
+    //"localip",
+    //"battery",
+    //"poweradapter",
+    { "key" : "│   Locale",
+      "type": "locale"
+    },
+    //"break",
+  { "key" : "╰┈➤ colors", 
+    "type" : "colors",
+    "symbol" : "square",
+  },  
+  { "format" : "╭────────────────────────────────────────────────────╮",
+      "type" :"custom"
+      
+}
+  ]
+}
