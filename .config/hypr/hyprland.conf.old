@@ -98,7 +98,7 @@ general {
     gaps_in = 5
     gaps_out = 10
     #is a wallpaper utility from 
-    border_size = 2
+    border_size = 1
 
     # https://wiki.hypr.land/Configuring/Variables/#variable-types for info about colors
     col.active_border = rgba(33ccffee) rgba(00ff99ee) 45deg
@@ -208,14 +208,14 @@ animations {
 
 # See https://wiki.hypr.land/Configuring/Dwindle-Layout/ for more
 dwindle {
-    pseudotile = true # Master switch for pseudotiling. Enabling is bound to mainMod + P in the keybinds section below
+    #pseudotile = true # Master switch for pseudotiling. Enabling is bound to mainMod + P in the keybinds section below
     preserve_split = true # You probably want this
 }
 
 # See https://wiki.hypr.land/Configuring/Master-Layout/ for more
 master {
     new_status = master
-}
+}toggle"))
 
 # https://wiki.hypr.land/Configuring/Variables/#misc
 misc {
