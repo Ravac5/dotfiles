@@ -1,0 +1,139 @@
+[bar.default]
+background_opacity = 0.80000000000000004
+end = [
+    "notifications",
+    "clipboard",
+    "network",
+    "bluetooth",
+    "volume",
+    "brightness",
+    "battery",
+    "control-center",
+    "session"
+]
+radius = 0
+start = [ "launcher", "wallpaper", "tray", "workspaces", "media" ]
+
+[config]
+
+[control_center]
+sidebar = "full"
+sidebar_section = "full"
+
+[desktop_widgets]
+schema_version = 1
+widget_order = []
+
+    [desktop_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [desktop_widgets.widget]
+
+[dock]
+auto_hide = true
+background_opacity = 0.80000000000000004
+enabled = true
+icon_size = 30
+radius = 0
+reserve_space = false
+
+[location]
+auto_locate = true
+
+[lockscreen_widgets]
+enabled = false
+schema_version = 2
+widget_order = [ "lockscreen-login-box@WAYLAND-1", "lockscreen-login-box@HDMI-A-1" ]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-1"]
+    box_height = 70.0
+    box_width = 400.0
+    cx = 960.0
+    cy = 961.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        input_opacity = 1.0
+        input_radius = 6.0
+        show_login_button = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@WAYLAND-1"]
+    box_height = 70.0
+    box_width = 400.0
+    cx = 236.0
+    cy = 132.0
+    output = "WAYLAND-1"
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@WAYLAND-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        input_opacity = 1.0
+        input_radius = 6.0
+        show_login_button = true
+
+[osd]
+position = "bottom_center"
+
+    [osd.kinds]
+    media = false
+
+[shell]
+avatar_path = "/home/agustin/Descargas/20b1a2f0f0efc76a0469bb2b525c44dc.jpg"
+corner_radius_scale = 0.0
+lang = "en"
+polkit_agent = true
+
+    [shell.panel]
+    clipboard_placement = "attached"
+    session_placement = "centered"
+    transparency_mode = "solid"
+    wallpaper_placement = "centered"
+
+[theme]
+source = "wallpaper"
+wallpaper_scheme = "vibrant"
+
+    [theme.templates]
+    builtin_ids = [ "alacritty", "btop", "hyprland", "kitty", "qt", "sway" ]
+    community_ids = [ "pywalfox", "zen-browser", "obsidian", "vscode", "zed", "fuzzel", "discord", "steam", "yazi", "hyprtoolkit" ]
+
+        [theme.templates.user.gtk]
+        input_path = "~/.config/gtk-4.0/user-template.css"
+        output_path = "~/.config/gtk-4.0/noctalia.css"
+        post_hook = "python3 /etc/xdg/quickshell/noctalia-shell/Scripts/pyhon/src/theming/gtk-refresh.py dark"
+
+        [theme.templates.user.nvim-base16]
+        input_path = "~/.config/nvim/lua/matugen-template.lua"
+        output_path = "~/.config/nvim/lua/matugen.lua"
+        post_hook = "pkill -SIGUSR1 nvim"
+
+[wallpaper]
+directory = "/home/agustin/Imágenes/wallpapers"
+transition = [ "disc" ]
+
+    [wallpaper.default]
+    path = "/home/agustin/Imágenes/wallpapers/wallhaven_p9wkwm.jpg"
+
+    [wallpaper.last]
+    path = "/home/agustin/Imágenes/wallpapers/wallhaven_p9wkwm.jpg"
+
+    [wallpaper.monitors.HDMI-A-1]
+    path = "/home/agustin/Imágenes/wallpapers/wallhaven_p9wkwm.jpg"
+
+[widget.media]
+hide_when_no_media = true
