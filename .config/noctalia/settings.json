@@ -240,6 +240,35 @@
                     "useDistroLogo": false
                 },
                 {
+                    "defaultSettings": {
+                        "animation_duration": 750,
+                        "background_color": null,
+                        "background_opacity": null,
+                        "card_height": 500,
+                        "card_radius": 10,
+                        "card_spacing": 8,
+                        "card_strip_width": 80,
+                        "cards_shown": 11,
+                        "filter_images": [
+                            "png",
+                            "jpg",
+                            "jpeg"
+                        ],
+                        "filter_videos": [
+                            "mp4",
+                            "mkv",
+                            "avi",
+                            "mov"
+                        ],
+                        "live_preview": false,
+                        "selected_filter": "images",
+                        "shear_factor": -0.25,
+                        "show_image_name": true,
+                        "show_image_type": true,
+                        "show_top_bar": true,
+                        "top_bar_height": 35,
+                        "top_bar_radius": 10
+                    },
                     "id": "plugin:wallcards"
                 }
             ]
@@ -746,10 +775,6 @@
             {
                 "enabled": true,
                 "id": "ghostty"
-            },
-            {
-                "enabled": true,
-                "id": "gtk"
             }
         ],
         "enableUserTheming": true
@@ -760,7 +785,7 @@
         "fontDefaultScale": 1,
         "fontFixed": "monospace",
         "fontFixedScale": 1,
-        "panelBackgroundOpacity": 0.6,
+        "panelBackgroundOpacity": 0.8,
         "panelsAttachedToBar": true,
         "scrollbarAlwaysVisible": true,
         "settingsPanelMode": "attached",
@@ -805,12 +830,12 @@
         "wallhavenCategories": "010",
         "wallhavenOrder": "desc",
         "wallhavenPurity": "100",
-        "wallhavenQuery": "vocaloid",
+        "wallhavenQuery": "",
         "wallhavenRatios": "",
         "wallhavenResolutionHeight": "",
         "wallhavenResolutionMode": "atleast",
         "wallhavenResolutionWidth": "",
-        "wallhavenSorting": "favorites",
+        "wallhavenSorting": "random",
         "wallpaperChangeMode": "random"
     }
 }
