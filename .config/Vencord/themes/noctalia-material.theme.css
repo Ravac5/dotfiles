@@ -35,48 +35,48 @@
 :root, .theme-dark, .theme-light {
   /* See options at https://github.com/CapnKitten/Material-Discord */
   /* Accent */
-  --accent-hue: 280;
+  --accent-hue: 207;
   --accent-saturation: 69%;
   --accent-lightness: 64%;
-  --accent-text-color: #211825;
+  --accent-text-color: #181f25;
 
   /* App */
-  --app-bg: #1f1c21;
-  --main-color: #1f1c21;
-  --main-alt: #1f1c21;
-  --server-color: #1f1c21;
-  --status-picker-color: #342f37;
-  --sidebar-panel-color: #342f37;
-  --chat-color: #1f1c21;
-  --tooltip-color: #1f1c21;
+  --app-bg: #10202d;
+  --main-color: #10202d;
+  --main-alt: #10202d;
+  --server-color: #10202d;
+  --status-picker-color: #1b354b;
+  --sidebar-panel-color: #1b354b;
+  --chat-color: #10202d;
+  --tooltip-color: #10202d;
   --tooltip-text-color: #f2f2f3;
 
   /* Message */
-  --message-color: #342f37;
+  --message-color: #1b354b;
   --message-color-hover: hsl(
     var(--accent-hue),
     calc(var(--accent-saturation) * var(--saturation-modifier) * var(--saturation-factor)),
     calc(var(--accent-lightness) * var(--lightness-modifier) * var(--ui-darkness-modifier) * 4)
   ) !important;
-  --message-color-alt: #211825;
-  --attachment-color: #211825;
-  --main-textarea-color: #bb67e4;
-  --main-textarea-button-color: #211825;
-  --main-textarea-color-alt: #675cd6;
-  --main-textarea-border: #342f37;
+  --message-color-alt: #e8f2fa;
+  --attachment-color: #181f25;
+  --main-textarea-color: #67aae4;
+  --main-textarea-button-color: #181f25;
+  --main-textarea-color-alt: #5c60d6;
+  --main-textarea-border: #1b354b;
 
   /* Card */
-  --card-color-filled: #342f37;
-  --card-color-hover: #773399;
-  --card-color-active: #773399;
-  --card-color-alt: #19106f;
-  --card-color-alt-hover: #675cd6;
-  --card-border-color: #342f37;
+  --card-color-filled: #1b354b;
+  --card-color-hover: #336a99;
+  --card-color-active: #336a99;
+  --card-color-alt: #16196a;
+  --card-color-alt-hover: #5c60d6;
+  --card-border-color: #1b354b;
   --card-header-text-color: #f2f2f3;
 
   /* Slider & Switch */
-  --switch-knob-color: #342f37;
-  --switch-slider-color: #1f1c21;
+  --switch-knob-color: #1b354b;
+  --switch-slider-color: #10202d;
 
   /* Input */
   --input-text-color: #f2f2f3;
